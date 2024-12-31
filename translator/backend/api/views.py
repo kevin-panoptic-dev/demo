@@ -9,7 +9,7 @@ from .serializer import (
     FeedbackSerializer,
 )
 from .models import TranslateHistory, IssueModel, FeedbackModel
-from pymodule.utility import prismelt
+from library.utility import prismelt
 
 
 class CreateUser(generics.CreateAPIView):

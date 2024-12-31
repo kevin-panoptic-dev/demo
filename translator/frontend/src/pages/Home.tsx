@@ -94,7 +94,7 @@ function Home() {
                     <img src="src/assets/translate-icon.png" className="translate-icon" />
                 </div>
 
-                <h1 className="home-title">Aloy's Translator</h1>
+                <h1 className="home-title">Translator</h1>
                 <p className="home-description">free, open-source AI translation</p>
                 <button
                     type="submit"

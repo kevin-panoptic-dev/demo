@@ -1,7 +1,7 @@
 import requests
 from typing import Literal
 from pprint import pprint
-from pymodule.utility import prismelt
+from library.utility import prismelt
 import dotenv
 import os
 

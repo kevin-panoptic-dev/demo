@@ -6,7 +6,7 @@ from .api_clients.gemini import fetch_data_from_gemini
 from .serializer import GeminiModelSerializer
 from .models import GeminiModel
 from typing import Literal
-from pymodule.utility import prismelt
+from library.utility import prismelt
 
 
 class CreateGeminiRequest(generics.ListCreateAPIView):
