@@ -1,0 +1,158 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 200px;
+
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        align-items: center;
+        font-family: Helvetica, sans-serif;
+        max-width: 700px;
+        min-width: 700px;
+
+        .heading-first {
+            font-size: 45px;
+            margin-bottom: 10px;
+        }
+        .heading-second {
+            font-weight: 400;
+            font-size: 23px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .paragraph-third {
+            font-weight: 200;
+            font-size: 21px;
+            text-align: center;
+
+            .contact-link {
+                color: blue;
+                cursor: pointer;
+                text-decoration: none;
+
+                &:hover {
+                    color: blue;
+                    text-decoration: underline;
+                    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.08);
+                }
+                &:visited {
+                    color: blue;
+                    text-decoration: none;
+                }
+            }
+        }
+        .image-forth {
+            width: 70px;
+            height: auto;
+        }
+    }
+
+    .article-division {
+        display: flex;
+        flex-direction: column;
+        max-width: 950px;
+        min-width: 700px;
+        width: 100%;
+
+        .boxes-container {
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+
+            .divider-container {
+                display: flex;
+                flex-direction: row;
+
+                .divider {
+                    border: none;
+                    border-top: 1px solid gray;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .header-container {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 20px;
+                margin-bottom: 20px;
+
+                .heading-fifth {
+                    font-size: 30px;
+                    margin-bottom: 10px;
+                    flex: 1fr;
+                    cursor: pointer;
+                    font-family: Helvetica, sans-serif;
+                    user-select: none;
+
+                    &:hover {
+                        color: #0066cc;
+                        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.08);
+                    }
+                }
+
+                .icon-container {
+                    width: 40px;
+                    height: 40px;
+                    display: flex;
+
+                    .click-icon {
+                        cursor: pointer;
+                        width: 100%;
+                        height: auto;
+
+                        &.onSelect {
+                            transform: rotate(45deg);
+                        }
+                    }
+                }
+            }
+
+            .box-paragraph {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                font-weight: 100;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                line-height: 1.5;
+
+                &.hide {
+                    opacity: 0;
+                    height: 0px;
+                }
+
+                &.show {
+                    height: auto;
+                    margin-bottom: 30px;
+                }
+
+                .paragraph-span {
+                    font-weight: 600;
+                }
+
+                .paragraph-link {
+                    cursor: pointer;
+                    color: blue;
+                    text-decoration: none;
+                    font: bold;
+
+                    &:hover {
+                        color: blue;
+                        text-decoration: underline;
+                        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.08);
+                    }
+
+                    &:visited {
+                        color: blue;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

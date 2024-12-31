@@ -1,0 +1,25 @@
+.error-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: antiquewhite;
+    height: 98vh;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: url("../assets/background.png");
+
+    .error-content {
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 10px;
+        background-color: #8b0000;
+        color: aliceblue;
+        font-size: 25px;
+        padding: 1.5cap;
+        transition: background-color 5s ease, font-size 5s ease;
+
+        &:hover {
+            background-color: #7b0000;
+            font-size: 26px;
+        }
+    }
+}
