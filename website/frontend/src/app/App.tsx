@@ -19,9 +19,7 @@ function App() {
                     <Routes>
                         <Route path="/error" element={<Error />} />
                         <Route path="*" element={<Error />} />
-                        <LoginOnly>
-                            <Route path="/search" element={<Search />} />
-                        </LoginOnly>
+                        <Route path="/search" element={<Search />} />
                         <Route path="/logout" element={<Logout />} />
                     </Routes>
                 </main>
