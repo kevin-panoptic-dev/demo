@@ -1,6 +1,6 @@
-# demo repository for schoolhouse application
+# Demo repository for schoolhouse application
 
-## website
+## Website
 
 - Fully responsive design for optimal user experience across devices.
 - Customized user authentication system build on top of JWT rest framework.
@@ -28,7 +28,7 @@
 - **Styling**:
   - CSS - Latest, nesting CSS paired with javascript, providing robust and dynamic styling.
 
-## library
+## Library
 
 - **Language**: Python
 - **Models**:
