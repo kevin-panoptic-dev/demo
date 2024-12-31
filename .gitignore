@@ -1,0 +1,7 @@
+*.env
+constants.*
+assets/
+media/
+static/
+User-agent: *
+Disallow: /
